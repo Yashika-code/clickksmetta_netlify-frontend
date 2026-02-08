@@ -1,8 +1,7 @@
-````md
 # ClicksMeta – Frontend UI
 
-A modern marketing analytics landing page built with **React (Vite)** and **Tailwind CSS**.  
-Design inspired by Trackier with enhanced UI, dark theme, neon gradients, and glassmorphism.
+A modern marketing analytics landing page built with React (Vite) and Tailwind CSS.  
+Design site with enhanced UI, dark theme, neon gradients, and glassmorphism.
 
 ## 🚀 Tech Stack
 - React + Vite  
@@ -22,10 +21,7 @@ Design inspired by Trackier with enhanced UI, dark theme, neon gradients, and gl
 
 ```bash
 # Clone the repo
-git clone <your-repo-url>
-
-# Go to project
-cd frontend
+git clone https://github.com/Yashika-code/clickksmetta_netlify-frontend/
 
 # Install dependencies
 npm install
@@ -50,16 +46,14 @@ src/
  │   ├── Features.jsx
  │   ├── Pricing.jsx
  │   └── Footer.jsx
+ │   └── DashboardPreview.jsx
+ │   └── Testimonials.jsx
+ │   └── UseCases.jsx
  ├── App.jsx
  └── main.jsx
+ └── index.css
 ```
 
 ## 🎯 Purpose
 
-This project was created as an assignment to redesign and enhance the existing ClicksMeta website UI using modern CSS and better user experience, taking reference from Trackier.com.
-
-## 📄 License
-
-Free to use for learning and demo purposes.
-
-```
+This project was created as an assignment to redesign and enhance the existing clickksmetta website UI using modern CSS and better user experience.
