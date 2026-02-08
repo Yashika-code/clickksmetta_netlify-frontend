@@ -1,16 +1,65 @@
-# React + Vite
+````md
+# ClicksMeta – Frontend UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern marketing analytics landing page built with **React (Vite)** and **Tailwind CSS**.  
+Design inspired by Trackier with enhanced UI, dark theme, neon gradients, and glassmorphism.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
+- React + Vite  
+- Tailwind CSS  
+- Lucide React Icons  
+- Modern CSS animations
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Responsive dark UI  
+- Neon gradient hero section  
+- Glass effect cards  
+- Animated dashboard preview  
+- Pricing & testimonials sections  
+- Fully component-based structure
 
-## React Compiler
+## 📦 Installation
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+# Clone the repo
+git clone <your-repo-url>
 
-## Expanding the ESLint configuration
+# Go to project
+cd frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+````
+
+## 🛠 Build
+
+```bash
+npm run build
+```
+
+## 📂 Project Structure
+
+```
+src/
+ ├── components/
+ │   ├── Navbar.jsx
+ │   ├── Hero.jsx
+ │   ├── Features.jsx
+ │   ├── Pricing.jsx
+ │   └── Footer.jsx
+ ├── App.jsx
+ └── main.jsx
+```
+
+## 🎯 Purpose
+
+This project was created as an assignment to redesign and enhance the existing ClicksMeta website UI using modern CSS and better user experience, taking reference from Trackier.com.
+
+## 📄 License
+
+Free to use for learning and demo purposes.
+
+```
